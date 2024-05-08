@@ -1,0 +1,74 @@
+body {
+    background-image: url(/Users/apple/projects/ENG122Project/images/hackmask.jpeg);
+    padding: 200px 0px;
+    background-attachment: fixed;
+    
+}
+
+
+.bigger-header {
+    display: flex;
+    justify-content: center;
+    font-family: 'Creepster', cursive;
+    background-color: white;
+    padding: 10px;
+    margin: 0px 50px;
+    font-size: 20px;
+    color: rgb(90, 45, 45);
+}
+
+.info-container {
+    background-color: white;
+    padding: 10px 30px;
+    margin: 50px 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serifs;
+    font-size: 25px;
+}
+
+#form {
+    background-color: white;
+    padding: 20px 30px;
+    margin: 50px 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serifs;
+    font-size: 25px;
+}
+
+#name {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serifs;
+    font-size: 20px;
+
+}
+.error {
+    color: #e00d0d;
+    font-size: 15px;
+  }
+  
+  #submit-button {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serifs;
+    padding: 10px;
+    margin: 15px;
+    font-size: 20px;
+    color: rgb(90, 45, 45);
+    background-color: white;
+    border-radius: 10px;
+    border-color: rgb(90, 45, 45);
+    cursor: pointer;
+
+  }
+  #submit-button:hover {
+    color: white;
+    background-color: rgb(90, 45, 45);
+    border-color: white;
+  }
+  .footer-conainer {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serifs;
+    font-size: 20px;
+    position: fixed;
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(16, 16, 16);
+    color: white;
+  }
