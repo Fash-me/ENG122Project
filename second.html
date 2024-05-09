@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="Stylesheet" type="text/css" href="second.css"/>
-    <script src= "second.js" defer></script>
     <title>Government and Cybersecurity</title>
 </head>
 <body>
@@ -13,7 +12,7 @@
     </div>
 
     <div class="welcome-user">
-        <h1>Welcome, <span id="u-name"></span>!</h1>
+        <!-- <h2>Welcome, <span id="name"></span>!</h2> -->
     </div>
     
     <p>In today's interconnected world, the digital landscape has become an integral part of our daily lives. 
@@ -40,7 +39,10 @@
 
 
             <div id="content" style="display:none;">
-                <h2>Should the government implement stricter regulations to protect against these threats?</h2>
+                <div class="mid">
+                    <h2>Should the government implement stricter regulations to protect against these threats?</h2>
+
+                </div>
                 <p>The current cybersecurity landscape is characterized by many threats, including phishing, ransomware, malware, 
                     and data breaches. According to recent reports, cyberattacks have become more frequent and sophisticated, 
                     targeting organizations of all sizes and sectors. For example, the healthcare industry has experienced a 
@@ -100,7 +102,89 @@
                                  regulations can empower individuals to recognize and respond to cyber threats effectively (Nifakos et al., 2021).
                             </p>
                         </div>
-                </div>
+                        <div class="device-type">
+                            <fieldset>
+                                <legend>Select the type of devices you use</legend>
+                                <label>
+                                    <input type="checkbox" name="option3" value="1"> Adriod
+                                </label>
+                                <br>
+                                <label>
+                                    <input type="checkbox" name="option3" value="1"> Iphone
+                                </label>
+                                <br>
+                                <label>
+                                    <input type="checkbox" name="option3" value="1"> MacBook computer
+                                </label>
+                                <br>
+                                <label>
+                                    <input type="checkbox" name="option2" value="1"> Windows Personal Computer
+                                </label>
+                                <br>
+                                <label>
+                                    <input type="checkbox" name="option3" value="1"> Google ChromeBook
+                                </label>
+                                <br>
+                                <label>
+                                    <input type="checkbox" name="option3" value="1"> Linux Operating System Computer
+                                </label>
+                              </fieldset>
+                            </div>
+
+                            <p>
+                                User education and awareness are crucial components of effective cybersecurity strategies. 
+                                Stricter government regulations can promote cybersecurity education and awareness initiatives to empower individuals 
+                                to protect themselves against cyber threats. Regulations can mandate the inclusion of cybersecurity education in school 
+                                curricula and require businesses to provide cybersecurity training to employees (Hijji & Alam, 2022). By promoting a culture of 
+                                cybersecurity awareness, regulations can help individuals recognize phishing attempts, secure their devices, and practice safe online behaviors.
+                            </p>
+
+                            <p>
+                                Critical infrastructure sectors, such as energy, transportation, and healthcare, are prime targets for cyberattacks due to their vital role in society. 
+                                Stricter government regulations are essential to safeguarding these sectors and minimizing the potential impact of cyber incidents. Regulations can 
+                                mandate the implementation of robust cybersecurity measures, such as network segmentation, encryption, and intrusion detection systems, to protect critical 
+                                infrastructure assets. Additionally, regulations can require regular cybersecurity assessments and audits to identify and address vulnerabilities proactively.
+                            </p>
+
+                            <div class="email">
+                                <fieldset>
+                                    <legend>Do you have an email with Google or clcillinois.edu?</legend>
+                                    <label>
+                                        <input type="radio" name="option4" value="1"> Yes
+                                    </label>
+                                    <br>
+                                    <label>
+                                        <input type="radio" name="option4" value="2"> No
+                                    </label>
+                                  </fieldset>
+                                </div>
+                                <div>
+                                    <p>
+                                        Opponents of stricter government regulations argue that such measures may impose undue burdens on businesses and stifle innovation (Clarke, 2018). However, 
+                                        these concerns must be weighed against the potential consequences of inadequate cybersecurity protections. The costs of cyber incidents including financial losses, 
+                                        reputational damage, and legal liabilities, far outweigh the compliance costs associated with regulatory compliance. Moreover, regulations can provide a level playing 
+                                        field for businesses by establishing uniform cybersecurity standards and requirements.
+                                    </p>
+
+                                    <p>
+                                        The government should implement stricter regulations to mitigate cybersecurity risks and protect individuals, businesses, and critical infrastructure sectors from cyber threats. 
+                                        Comprehensive regulations can establish clear standards, promote information sharing, and empower individuals to recognize and respond to cyber threats effectively. By prioritizing cybersecurity, 
+                                        governments can enhance national security, safeguard critical infrastructure, and promote economic resilience in the digital age.
+                                    </p>
+                                </div>
+                                <div>
+                                    
+                                    <form id="feedback-form">
+                                        <label for="feedback">Leave your feedback and add 06839 at the end so we can see your feedback fast:</label><br>
+                                        <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br>
+                                        <button type="submit" id="submit-button">Submit</button>
+                                      </form>
+                                </div>
+
+                                <div class="footer-conainer">
+                                    <footer>copyright © 2024 Samson</footer>
+                                </div>
+                                <script src= "second.js"></script>
 
 </body>
 </html>

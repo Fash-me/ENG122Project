@@ -1,4 +1,68 @@
 body {
-    background-color: brown;
+    background-color: rgb(90, 45, 45);
+    color:white;
+    /* margin: 20px; */
 }
 
+.first-header, 
+.mid{
+    display: inline-flex;
+    justify-content: center;
+    padding: 0px 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    background-color: black;
+}
+.mid {
+    margin-top: 30px;
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serifs;
+    font-size: 25px;
+
+}
+.been-hacked, 
+.attack-type, 
+.device-type, 
+.email, 
+.feedback{
+    background-color: white;
+    color: black;
+    display: inline-flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+ 
+#submit-button {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serifs;
+    padding: 10px;
+    margin: 15px;
+    font-size: 20px;
+    color: rgb(90, 45, 45);
+    background-color: white;
+    border-radius: 10px;
+    border-color: rgb(90, 45, 45);
+    cursor: pointer;
+
+  }
+  #submit-button:hover {
+    color: white;
+    background-color: rgb(90, 45, 45);
+    border-color: white;
+  }
+
+.footer-conainer {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serifs;
+    font-size: 20px;
+    /* position: fixed; */
+    margin-top: 20px;
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(16, 16, 16);
+    color: white;
+  }

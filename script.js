@@ -49,10 +49,9 @@ userInfo.addEventListener("submit", function (e) {
     //This will load to the next page if the user enter correct format of their name
     if (userName.value.length > 2 && isNaN(userName.value) == true && invalid(userName.value) == false) {
         e.preventDefault();
-        localStorage.setItem('userN', userName.value);
-        // form.reset();
+        // localStorage.setItem('user', userName.value);
+        form.reset();
         window.location.href = 'second.html';
-        // window.location.assign("second.html");
         
     }
 });
